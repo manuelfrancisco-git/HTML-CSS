@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    color: #fff;
+}
+
+.txt-animado{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+
+.txt-animado span::before{
+    content: "";
+    color: #ff007b;
+    animation: palavras 25s infinite;
+}
+
+.txt-animado span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid #ff007b;
+    right: -10px;
+    animation: cursor .8s infinite, digita 25s steps(15) infinite;
+    width: calc(100% + 18px);
+    background-color: #212121;
+
+}
+
+
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+
+    5%, 15%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 18px);
+    }
+    
+}
+
+
+@keyframes cursor {
+    0%{
+        border-left: 2px solid #ff007b;
+    }
+    
+}
+
+@keyframes palavras {
+    0%, 20%{
+        content: 'está bem?';
+    }
+    21%, 40%{
+        content: 'vai ficar bem!';
+    }
+    41%, 60%{
+        content: 'não é estranho/a!';
+    }
+    61%, 80%{
+        content: 'apenas é diferente!';
+    }
+    81%, 100%{
+        content: 'vai conseguir tudo que voce quer!';
+    }
+
+
+    
+}

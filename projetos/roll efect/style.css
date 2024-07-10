@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33ddd5;
+    background: url(img5.jpg) no-repeat;
+    
+
+}
+
+
+.img-port{
+    width: 360px;
+    height: 560px;
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 5s;
+    box-shadow: 2px 0px 10px black;
+    
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.site1{
+    background-image: url(img.jpg);
+    margin: 10px;
+}
+
+.site2{
+    background-image: url(img2.jpg);
+    margin: 10px;
+}

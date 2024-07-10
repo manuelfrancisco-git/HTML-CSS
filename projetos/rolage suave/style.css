@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    list-style: none;
+
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+
+
+section{
+    min-height: 100vh;
+    padding: 20px;
+    
+}
+
+#Sobre{
+    background-color: aqua;
+}
+#Servicos{
+    background-color: rgb(13, 165, 165);
+}
+#Contatos{
+    background-color: rgb(21, 77, 77);
+}

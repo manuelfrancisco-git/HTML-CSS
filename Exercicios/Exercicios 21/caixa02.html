@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+         body{
+            background-color: gray;
+        }
+
+        header  {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 10px ;
+        }
+        
+        h1{
+            box-shadow: 1px 1px 1px black;
+        }
+        
+        nav > a {
+            text-decoration: none;
+           padding: 10px;
+           margin: 10px;
+           color: #ffff;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        nav {
+            background-color: rgb(179, 179, 179);
+
+        }
+        
+        main{
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        padding: 3px;
+        margin: 10px;}
+       
+        article > aside{
+            background-color: rgb(71, 70, 70);
+        }
+        footer{background-color: #000;
+        color: white;
+    padding: 0px;}
+
+    footer > p{
+
+        padding: 4px;
+    }
+   
+    
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre Angola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vitae harum nostrum ipsum facere, eveniet a nisi eius eaque saepe obcaecati aperiam, fugit inventore velit assumenda totam libero. Deserunt, exercitationem.</p>
+                <aside>
+                    <p>Artigo escrito pelo Luessy</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela code waves</p>
+    </footer>
+</body>
+</html>

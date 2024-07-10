@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #225ca8;
+}
+
+nav{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 50px 10px 0px;
+    font-size: 25pt;
+    position: relative;
+    
+    
+    
+}
+
+nav a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out ;
+}
+
+nav a:hover::after{
+    width: 100%;
+}

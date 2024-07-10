@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+
+body{
+    background: url('degrade.jpg') no-repeat;
+   
+}
+
+
+nav{
+    background-color: rgb(228, 222, 222);
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px rgb(255, 255, 255);
+}

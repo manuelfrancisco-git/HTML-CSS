@@ -1,0 +1,21 @@
+header{
+    background-color: blue;
+     
+}
+
+
+a{color: white;}
+section.middle {
+    background-color: red;
+    padding: 300px;
+}
+
+section{
+    min-height: 100vh;
+    padding: 20px;
+    
+}
+
+#home{
+    background-color: rgb(39, 39, 39);
+}
